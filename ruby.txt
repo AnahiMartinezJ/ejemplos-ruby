@@ -1,3 +1,5 @@
+"Prueba"
+
 -------if---------
 num= gets
 if num.to_i >0
