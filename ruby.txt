@@ -1,0 +1,63 @@
+-------if---------
+num= gets
+if num.to_i >0
+	puts "numero positivo"
+else
+	puts "numero negativo"
+end
+
+---------while---------
+i=3
+while i>0
+	puts i
+	i=i-1
+end
+
+-------each------
+
+mat=[1,3,5,6,7]
+mat.each do |var|
+	puts var
+end
+
+
+-----iterar----
+4.times do
+	puts "Hola"
+end
+
+----listas----------
+lista =[0,3,4,5,"Hola"]
+lista.length
+lista.reverse
+lista.join
+lista.pop
+lista.last
+lista.push(4)
+
+-----------funciones----------
+
+def sumar numero,numero2
+	numero + numero2
+end
+
+sumar 4,5
+puts "La suma es: "+ (sumar 4,5).to_s
+
+
+---------clases--------
+
+class Calculadora
+	def sumar num,num2
+		puts num+num2
+	end
+	
+	def restar num,num2
+		puts num-num2
+	end
+end
+
+s=Calculadora.new
+puts s.sumar 3,3
+puts s.restar 4,2
+
